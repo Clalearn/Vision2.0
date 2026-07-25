@@ -21,7 +21,7 @@ except Exception as e:
 # === CONFIGURAZIONE BUCKET S3 ===
 BUCKET_NAME = "chat-vision-tuaemail-2026" 
 # Llama 3.1 405B è eccellente, ottima scelta.
-INTERNAL_MODEL_ID = "meta.llama3-1-405b-instruct-v1:0"
+INTERNAL_MODEL_ID = "us.meta.llama3-3-70b-instruct-v1:0"
 
 # === INIZIALIZZA CRONOLOGIA (Memoria Volatile) ===
 # Nota: Se riavvii il server, questa memoria si cancella. 
